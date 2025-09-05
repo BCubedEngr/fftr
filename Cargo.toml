@@ -1,0 +1,11 @@
+[package]
+name = "fftr"
+version = "6.4.0"
+edition = "2021"
+
+[dependencies]
+rustfft = "6.4.0"
+realfft = "3.5.0"
+
+[lib]
+crate-type=["rlib", "cdylib", "staticlib"]
